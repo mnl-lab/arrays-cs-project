@@ -16,11 +16,9 @@ public class CourseNumbersArray {
         int specificNumber = 2080;
         for(int i = 0; i< c + 1; i++){
             if(updatedCourses[i] == specificNumber){
-                System.out.println(specificNumber + " found");
+                System.out.println("\n" + specificNumber + " found");
             }
-            else {
-                System.out.println(specificNumber + " not found");
-            }
+
         }
 
     }
